@@ -18,7 +18,7 @@ WORKDIR /glances
 EXPOSE 61209
 
 # EXPOSE PORT (For Web UI)
-EXPOSE 61280
+EXPOSE 61208	
 
 # Define default command.
 CMD python -m glances -C /glances/conf/glances.conf $GLANCES_OPT
